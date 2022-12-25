@@ -1,0 +1,45 @@
+/*Основной шрифт страницы*/
+body {
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+}
+/*Ограничиваюший контейнер*/
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.container-big {
+	max-width: 1336px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/*Оболочка сайта*/
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+}
+/*Прижимает footer к концу экрана*/
+main {
+	flex: 1 1 auto;
+}
+/*Адаптив сетка*/
+/*
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		max-width: none;
+	}
+}
+*/

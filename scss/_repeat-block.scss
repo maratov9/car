@@ -1,0 +1,36 @@
+.title {
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #21062a;
+	position: relative;
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 80px;
+		left: 210px;
+		top: 15px;
+		padding-bottom: 3px;
+		background-color: #21062a;
+	}
+}
+.input {
+	border: 1px solid #ffffff;
+	width: 450px;
+	height: 75px;
+	background-color: inherit;
+	margin-bottom: 12px;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 0 10px;
+
+	&::placeholder {
+		text-transform: none;
+		text-align: center;
+		font-size: 18px;
+		line-height: 27px;
+		color: #c4c4c4;
+	}
+}
